@@ -6,7 +6,9 @@
 body {
   font-family: "Barlow", sans-serif;
 }
-
+img {
+  display: block;
+}
 .header_content {
   max-width: 1110px;
   margin: 55px auto 0px;
@@ -29,8 +31,11 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
+.section1 {
+  margin-bottom: 30px;
+}
 
-.first_section_content {
+.section1_content {
   max-width: 1110px;
   max-height: 480px;
   margin: 83px auto 0px;
@@ -39,31 +44,32 @@ body {
   align-items: center;
 }
 
-.first_section_content .first_side {
+.section1_content .section1_text {
   max-width: 445px;
   display: flex;
   flex-direction: column;
 }
-.first_side .text1 {
+
+.section1_text .text1 {
   font-size: 56px;
-  font-weight: bolder;
+  font-weight: 800;
   margin-bottom: 24px;
 }
 
-.first_side .text2 {
+.section1_text .text2 {
   font-size: 18px;
   color: #7b8bad;
   margin-bottom: 40px;
 }
 
-.first_side .button_release {
+.section1_text .button_release {
   width: 342px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.button_release .orange_button {
+.orange_button {
   width: 175px;
   height: 58px;
   border: none;
@@ -80,4 +86,57 @@ body {
 .orange_button:active {
   background-color: #ff9b62;
   cursor: pointer;
+}
+
+.section2_content {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.section2_images {
+  width: 730px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2_text {
+  width: 255px;
+}
+.section2_text .text1 {
+  color: #162542;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 27px;
+}
+.section2_text .text2 {
+  font-weight: 200;
+  color: #7b8bad;
+}
+
+.section3_content {
+  max-width: 1110px;
+  margin: 168px auto 128px;
+  display: flex;
+  justify-content: space-between;
+}
+.section3_content div {
+  max-width: 255px;
+  max-height: 323px;
+}
+.section3_content img {
+  margin-bottom: 48px;
+}
+
+.section3_content h3 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #162542;
+}
+.section3_content .text2 {
+  color: #7b8bad;
+  font-weight: 200;
 }
