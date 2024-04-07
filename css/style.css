@@ -6,9 +6,10 @@
 body {
   font-family: "Barlow", sans-serif;
 }
+
 .header_content {
   max-width: 1110px;
-  margin: 0 auto;
+  margin: 55px auto 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +24,60 @@ body {
   color: #162542;
 }
 
-/* .typemaster_keyboard {
+.header_content .pre_order:active {
+  background-color: #162542;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.first_section_content {
+  max-width: 1110px;
+  max-height: 480px;
+  margin: 83px auto 0px;
   display: flex;
-} */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first_section_content .first_side {
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+}
+.first_side .text1 {
+  font-size: 56px;
+  font-weight: bolder;
+  margin-bottom: 24px;
+}
+
+.first_side .text2 {
+  font-size: 18px;
+  color: #7b8bad;
+  margin-bottom: 40px;
+}
+
+.first_side .button_release {
+  width: 342px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button_release .orange_button {
+  width: 175px;
+  height: 58px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: #f16718;
+  color: #ffffff;
+}
+.button_release .release_note {
+  color: #7b8bad;
+  font-weight: bold;
+}
+
+.orange_button:active {
+  background-color: #ff9b62;
+  cursor: pointer;
+}
