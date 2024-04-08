@@ -181,7 +181,6 @@ footer .text1 {
     font-size: 16px;
   }
   .section1_content img {
-    margin-left: 69px;
     width: 478px;
     height: 425px;
   }
@@ -201,7 +200,6 @@ footer .text1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 689px;
   }
 
   .section2_images .section2_img1 {
@@ -234,9 +232,13 @@ footer .text1 {
     grid-template-rows: 1fr 1fr;
     grid-gap: 11px 72px;
   }
+
+  footer .footer_content {
+    margin-top: 142px auto 43px;
+  }
 }
 
-@media screen and (max-width: 375px) and (max-height: 3007px) {
+@media screen and (max-width: 376px) and (max-height: 3007px) {
   header .header_content {
     max-width: 327px;
     margin: 23px auto 0px;
@@ -246,20 +248,36 @@ footer .text1 {
     height: 48px;
   }
 
+  .section1 {
+    margin-top: 64px;
+  }
+
   .section1 .section1_content {
     flex-direction: column;
     justify-content: space-between;
     max-width: 327px;
     min-height: 681px;
-    margin: 0 auto 24px;
+    margin: 0 auto;
+  }
+  .section1_content .section1_text {
+    width: 327px;
+    height: 286px;
+    justify-content: space-between;
+  }
+
+  .section1_text .text1 {
+    margin-bottom: 0px;
+  }
+
+  .section1_text .text2 {
+    margin-bottom: 0px;
   }
 
   .section1_content img {
     width: 372px;
     height: 331px;
-    margin: 0;
     position: relative;
-    right: -21px;
+    left: 24px;
   }
 
   .section1_text .button_release {
@@ -275,6 +293,10 @@ footer .text1 {
     height: 26px;
   }
 
+  .section2 {
+    margin-top: 24px;
+  }
+
   .section2 .section2_content {
     width: 373px;
     height: 504px;
@@ -283,7 +305,8 @@ footer .text1 {
   .section2_content .section2_images {
     width: 373px;
     height: 193px;
-    margin-left: -22px;
+    position: relative;
+    right: 24px;
   }
   .section2_images .section2_img1 {
     width: 129px;
@@ -317,7 +340,7 @@ footer .text1 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+    margin: 0 auto;
   }
   .section3_content .div {
     width: 327px;
@@ -331,5 +354,9 @@ footer .text1 {
     width: 65px;
     height: 65px;
     margin-bottom: 48px;
+  }
+
+  footer {
+    margin: 96px auto 50px;
   }
 }
