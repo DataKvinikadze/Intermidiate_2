@@ -262,6 +262,8 @@ footer .text1 {
     width: 372px;
     height: 331px;
     margin: 0;
+    position: relative;
+    right: -21px;
   }
 
   .section1_text .button_release {
