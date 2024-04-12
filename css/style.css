@@ -31,9 +31,9 @@ img {
   color: #ffffff;
   cursor: pointer;
 }
-/* .section1 {
+.section1 {
   margin-bottom: 30px;
-} */
+}
 
 .section1 .section1_content {
   max-width: 1110px;
@@ -209,6 +209,8 @@ footer .text1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 689px;
+    height: 108px;
   }
 
   .section2_images .section2_img1 {
